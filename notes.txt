@@ -68,4 +68,4 @@ Username (leave blank to use 'leads'): test1
 Email address: test1@gjmail.com
 
 
-Inside build homepage
+Inside build homepage test is changed
