@@ -1,0 +1,58 @@
+Steps to setup the project
+
+Step 1: First create a virtual env file:
+        python -m venv venv
+
+Step 2: Activate virtual env in windows:
+        venv/Scripts/activate
+        
+        For Ubuntu/linux:
+        source venv/bin/activate
+
+Step 3: Run the below commond to install the packages
+        pip install -r requirements.txt
+
+        below packages will get installed:
+        1. pip install pandas
+        2. pip install fake-useragent
+        3. pip install selenium
+
+Step 4: Run the script:
+        python email_script.py
+
+** To Make requirements.txt file run below commond:
+   pip freeze > requirements.txt
+    
+https://www.creative-tim.com/product/material-dashboard-django#
+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
+
+https://medium.com/django-rest/django-rest-framework-login-and-register-user-fd91cf6029d5
+
+https://www.youtube.com/watch?v=Vv5069f93UE
+
+youtube-course-free-full-stack-course-django-backend
+https://github.com/vandadnp/youtube-course-free-full-stack-course-django-backend
+
+----------------------------------------------------------------------------------------
+
+# python manage.py shell      
+# from user_profile.models import User_Address
+# User_Address.objects.all().delete()
+
+Few Points to remeber:
+1. In the product model each preoduct will have a variant. 
+   suppose if a product has only 1 kg of iteself, then that 1 kg 
+   will consider as a variant and Never as a single product
+
+how to build schema diagram of my django project on windows
+python manage.py inspectdb > models.py
+
+'''
+{
+      "page": 5,
+      "per_page": 20,
+      "page_count": 20,
+      "total_count": 521,
+      "url": "/products?page=5&per_page=20"
+}
+'''
