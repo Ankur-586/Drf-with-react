@@ -56,3 +56,16 @@ python manage.py inspectdb > models.py
       "url": "/products?page=5&per_page=20"
 }
 '''
+
+
+Username (leave blank to use 'leads'): test
+Email address: test@gmail.com
+Password:
+Password (again):
+Superuser created successfully.
+
+Username (leave blank to use 'leads'): test1
+Email address: test1@gjmail.com
+
+
+Inside build homepage
